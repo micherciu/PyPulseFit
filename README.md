@@ -1,2 +1,6 @@
 # PyPulseFit
-This program take data from an input file (generated or acquired)... pulse like (separated by &amp;) and do PulseHeightAnalysis channel spectrum.
+This program take data from one line input file (generated or acquired) pulses having following structure:
+----------one pulse---------------------|------------ second pulse --------------| .......
+493,496,500,500,497,494,489,482,927,930,&509,536,556,572,577,574,566,555,541,530,& .......
+
+and do PulseHeightAnalysis channel spectrum.
